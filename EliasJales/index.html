@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Entrada</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="todo">
+        <div class="topo">
+            <span>Suarly Menu's</span>
+        </div>
+        <div class="titulo">
+            <span>SELECIONE A PÁGINA QUE DESEJA VISITAR</span>
+        </div>
+        <div class="corpo">
+            <div class="opcao" id="pag1">
+                <span>Página - 01</span>
+            </div>
+            <div class="opcao">
+                <span>Página - 02</span>
+            </div>
+            <div class="opcao">
+                <span>Página - 03</span>
+            </div>
+            <div class="opcao">
+                <span>Página - 04</span>
+            </div>
+            <div class="opcao">
+                <span>Página - 05</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#pag1').click(function() { 
+                document.location = 'pagina1.html';
+            });
+        });
+    </script>
+</body>
+</html>
